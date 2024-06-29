@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhosh K - Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <canvas id="backgroundCanvas"></canvas>
+            <div class="hero-content">
+                <h1>Santhosh K</h1>
+                <p>Frontend Developer with a passion for creating beautiful, responsive websites.</p>
+            </div>
+        </section>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Santhosh K" class="profile-img">
+        <p>
+            I am a software developer who designs, creates, and maintains software applications and systems. I write code in various programming languages to implement software solutions based on user needs and technical requirements. I often collaborate with other team members, such as designers, analysts, and project managers, to ensure the successful delivery of software projects. I also perform debugging and testing to identify and fix issues, ensuring high-quality and efficient software performance. Continuous learning and adapting to new technologies.
+        </p>
+        <p>
+            <strong>Contact:</strong> +91 9360164622 · <a href="mailto:santhoshkrish0205@gmail.com">santhoshkrish0205@gmail.com</a> · 
+            <a href="http://www.linkedin.com/in/santhosh-k-b8bab724a">LinkedIn</a><br>
+            <strong>Location:</strong> Chennai, Tamilnadu
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Performance analysis of a Wi-Fi Network using Ns2</h3>
+            <p>
+                Objective: Simulate and analyze WLAN performance in a university setting using Network Simulator 2 (ns2) and the 802.11g wireless protocol.<br>
+                Metrics Evaluated: Throughput, packet loss, and end-to-end delay.<br>
+                Outcome: Identified optimal network configurations to enhance Quality of Service (QoS) for students and faculty.<br>
+                Keywords: WLAN, ns2, 802.11g, QoS.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Skin Cancer detection using DCNN</h3>
+            <p>
+                Objective: Implement a skin cancer detection method using Deep Convolutional Neural Networks (DCNN).<br>
+                Method: Enhanced a pre-trained DCNN model with the HAM10000 dataset of skin lesion images.<br>
+                Evaluation: Tested on a skin lesion image set, achieving cutting-edge performance in diagnosis.<br>
+                Outcome: Potential to assist doctors in early identification and contribute to automated skin cancer screening.<br>
+                Keywords: DCNN, skin cancer detection, medical image analysis, HAM10000.
+            </p>
+        </div>
+        <div class="project">
+            <h3>Real-Time Driver Drowsiness Detection with YOLOv5</h3>
+            <p>
+                Objective: Develop a drowsiness detection system using YOLOv5 to analyze facial features and eye movements.<br>
+                Method: Curated and annotated a diverse dataset to train a modified YOLOv5 model, incorporating facial landmarks and eye tracking.<br>
+                Key Features: Eye closure duration, blink frequency, and head pose.<br>
+                Outcome: Demonstrated high accuracy, speed, and robustness in real-time detection, highlighting potential for widespread vehicle implementation.<br>
+                Keywords: Image processing, monitoring system, safety analysis, real-time detection.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages: C++, Python, Flutter</li>
+            <li>User Interface Design</li>
+            <li>Technical Support</li>
+            <li>Team Leadership</li>
+            <li>Communication</li>
+            <li>Operations Management</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:santhoshkrish0205@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Santhosh K. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
